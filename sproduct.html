@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Layla Jewelry</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img src="img/logo.png" class="logo" alt="" style="width: 100px; height: 100px;"></a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html"> Home </a> </li>
+                    <li><a class="active" href="shop.html"> Shop </a> </li>
+                    <li><a href="about.html"> About </a> </li>
+                    <li><a href="contact.html"> Contact </a> </li>
+                    <li id="lg-bag"><a href="cart.html"><i class="fas fa-shopping-bag"></i> </a></li>
+                    <a href="#" id="close"><i class="fas fa-times"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="img/products/gold_braclet1.png" width="100%" id="MainImg" alt="Gilded Majesty Wide Cuff">
+                
+                <div class="small-img-group">
+                    <div class="small-img-col active">
+                        <img src="img/products/gold_braclet1.png" width="100%" class="small-img" alt="Gilded Majesty Wide Cuff" data-product="bracelet1">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/gold_earrings.png" width="100%" class="small-img" alt="Liquid Gold Drop Earrings" data-product="earrings1">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/sliver_earrings.png" width="100%" class="small-img" alt="Sleek Pearl & Silver" data-product="earrings2">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/sliver_necklace.png" width="100%" class="small-img" alt="Artisan Stone Silver" data-product="necklace1">
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-pro-details">
+                <h6 id="breadcrumb">Home / Bracelet</h6>
+                <h4 id="product-title">Gilded Majesty Wide Cuff</h4>
+                <h2 id="product-price">$145</h2>
+                
+                <select id="size-select">
+                    <option>Choose Fit</option>
+                    <option>Petite Fit (6-6.5" wrist)</option>
+                    <option>Standard Fit (6.5-7" wrist)</option>
+                    <option>Comfort Fit (7-7.5" wrist)</option>
+                </select>
+
+                <div class="quantity-container">
+                    <input type="number" value="1" id="quantity" min="1">
+                    <button class="normal" id="add-to-cart-btn">Add To Cart</button>
+                </div>
+                
+                <h4>Product Details</h4>
+                <span id="product-description">
+                    Embrace timeless elegance with our Gilded Majesty Wide Cuff, crafted for those who appreciate bold luxury. This statement piece features a wide, substantial design in 18k gold vermeil over sterling silver. The versatile piece seamlessly transitions from daytime casual to evening sophistication, making it the perfect accessory for every occasion.
+                </span>
+                
+                <div class="product-features" id="product-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li>18k Gold Vermeil over Sterling Silver</li>
+                        <li>Adjustable fit for most wrist sizes</li>
+                        <li>Hypoallergenic and tarnish-resistant</li>
+                        <li>Handcrafted with artisan detailing</li>
+                        <li>Includes luxury gift packaging</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+            <h2>Featured Products</h2>
+            <p>Summer Collection New Modern Design</p>
+            <div class="pro-container">
+                <div class="pro" data-product-id="9" data-product-name="Ethereal Leaf Design Necklace" data-product-price="140" data-product-image="img/products/n1.png">
+                    <img src="img/products/n1.png" alt="Ethereal Leaf Design Necklace">
+                    <div class="des">
+                        <span>Layla Jewelry</span>
+                        <h5>Ethereal Leaf Design Necklace</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$140</h4>
+                    </div>
+                    <a href="#" class="cart-btn add-to-cart">
+                        <i class="fas fa-bag-shopping"></i>
+                    </a>
+                </div>
+
+                <div class="pro" data-product-id="10" data-product-name="Complete Elegance Set" data-product-price="225" data-product-image="img/products/set1.png">
+                    <img src="img/products/set1.png" alt="Complete Elegance Set">
+                    <div class="des">
+                        <span>Layla Jewelry</span>
+                        <h5>Complete Elegance Set</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$225</h4>
+                    </div>
+                    <a href="#" class="cart-btn add-to-cart">
+                        <i class="fas fa-bag-shopping"></i>
+                    </a>
+                </div>
+
+                <div class="pro" data-product-id="11" data-product-name="Statement Silver Hoops" data-product-price="75" data-product-image="img/products/n2.png">
+                    <img src="img/products/n2.png" alt="Statement Silver Hoops">
+                    <div class="des">
+                        <span>Layla Jewelry</span>
+                        <h5>Statement Silver Hoops</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$75</h4>
+                    </div>
+                    <a href="#" class="cart-btn add-to-cart">
+                        <i class="fas fa-bag-shopping"></i>
+                    </a>
+                </div>
+
+                <div class="pro" data-product-id="12" data-product-name="Modernist Gold Cuff" data-product-price="167" data-product-image="img/products/n3.png">
+                    <img src="img/products/n3.png" alt="Modernist Gold Cuff">
+                    <div class="des">
+                        <span>Layla Jewelry</span>
+                        <h5>Modernist Gold Cuff</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$167</h4>
+                    </div>
+                    <a href="#" class="cart-btn add-to-cart">
+                        <i class="fas fa-bag-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            // Enhanced product data with IDs matching shop.html
+            
+const products = {
+    bracelet1: {
+        id: "1",
+        title: "Gilded Majesty Wide Cuff",
+        price: 145,
+        category: "Bracelet",
+        description: "Embrace timeless elegance with our Gilded Majesty Wide Cuff, crafted for those who appreciate bold luxury. This statement piece features a wide, substantial design in 18k gold vermeil over sterling silver.",
+        features: [
+            "18k Gold Vermeil over Sterling Silver",
+            "Adjustable fit for most wrist sizes",
+            "Hypoallergenic and tarnish-resistant",
+            "Handcrafted with artisan detailing",
+            "Includes luxury gift packaging"
+        ],
+        sizes: [
+            "Petite Fit (6-6.5\" wrist)",
+            "Standard Fit (6.5-7\" wrist)", 
+            "Comfort Fit (7-7.5\" wrist)"
+        ]
+    },
+    earrings1: {
+        id: "2",
+        title: "Liquid Gold Drop Earrings",
+        price: 105, 
+        category: "Earrings",
+        description: "Dazzle with our Liquid Gold Drop Earrings, featuring elegant teardrop designs that catch the light with every movement. Crafted from premium materials with secure French hook backs.",
+        features: [
+            "24k Gold Plated Sterling Silver",
+            "French hook backs for secure wear",
+            "Lightweight for all-day comfort", 
+            "Hypoallergenic materials",
+            "Elegant gift box included"
+        ],
+        sizes: [
+            "One Size Fits All",
+            "With 2-inch elegant drop"
+        ]
+    },
+    earrings2: {
+        id: "3",
+        title: "Sleek Pearl & Silver Earrings",
+        price: 125,
+        category: "Earrings", 
+        description: "Sophistication meets modern design with our Sleek Pearl & Silver Earrings. Featuring genuine freshwater pearls set in sterling silver, these earrings offer timeless beauty.",
+        features: [
+            "Genuine Freshwater Pearls",
+            "925 Sterling Silver settings",
+            "Push-back closures for security",
+            "Perfect for formal occasions", 
+            "Hand-selected pearl quality"
+        ],
+        sizes: [
+            "Standard Pearl Size",
+            "Medium drop length"
+        ]
+    },
+    necklace2: {
+        id: "4",
+        title: "Vintage Seal Silver Pendant",
+        price: 115,
+        category: "Necklace",
+        description: "Discover vintage charm with our Seal Silver Pendant, featuring intricate detailing and timeless appeal. Each piece tells a story of classic elegance.",
+        features: [
+            "925 Sterling Silver",
+            "Intricate vintage detailing",
+            "18-inch adjustable chain", 
+            "Secure lobster clasp",
+            "Antique-inspired finish"
+        ],
+        sizes: [
+            "18-inch standard chain",
+            "Adjustable up to 20 inches"
+        ]
+    },
+    necklace3: {
+        id: "5",
+        title: "Timeless Golden Heart Necklace",
+        price: 125,
+        category: "Necklace",
+        description: "Express your love with our Timeless Golden Heart Necklace. This classic piece features a delicate heart pendant that symbolizes eternal affection.",
+        features: [
+            "18k Gold Plated",
+            "Delicate heart pendant design",
+            "16-inch gold chain", 
+            "Secure spring ring clasp",
+            "Perfect for everyday wear"
+        ],
+        sizes: [
+            "16-inch delicate chain",
+            "Heart pendant: 1cm"
+        ]
+    },
+    bracelet2: {
+        id: "6",
+        title: "Lustrous Silver Bangle",
+        price: 130,
+        category: "Bracelet",
+        description: "Adorn your wrist with our Lustrous Silver Bangle, featuring a sleek and modern design that catches the light with every movement.",
+        features: [
+            "925 Sterling Silver",
+            "Sleek modern design",
+            "Hypoallergenic material", 
+            "Comfortable fit",
+            "Polished mirror finish"
+        ],
+        sizes: [
+            "Small (6-6.5\" wrist)",
+            "Medium (6.5-7\" wrist)",
+            "Large (7-7.5\" wrist)"
+        ]
+    },
+    ring1: {
+        id: "7",
+        title: "Serpentine Gold Band",
+        price: 98,
+        category: "Ring",
+        description: "Make a statement with our Serpentine Gold Band, featuring an intricate twisted design that symbolizes eternity and continuous love.",
+        features: [
+            "18k Gold Plated Brass",
+            "Intricate twisted design",
+            "Adjustable sizing", 
+            "Comfort-fit band",
+            "Symbolic eternity motif"
+        ],
+        sizes: [
+            "Size 5-9 available",
+            "Adjustable fit"
+        ]
+    },
+    necklace1: {
+        id: "8",
+        title: "Artisan Stone Silver Necklace",
+        price: 95,
+        category: "Necklace",
+        description: "Discover the perfect blend of nature and craftsmanship with our Artisan Stone Silver Necklace. Each piece features a unique semi-precious stone.",
+        features: [
+            "Unique Semi-Precious Stone",
+            "925 Sterling Silver Chain",
+            "Adjustable 16-18 inch length", 
+            "Handcrafted artisan setting",
+            "Individually selected stones"
+        ],
+        sizes: [
+            "16-inch standard length",
+            "18-inch extended length",
+            "Adjustable clasp"
+        ]
+    },
+    necklace4: {
+        id: "9",
+        title: "Ethereal Leaf Design Necklace",
+        price: 140,
+        category: "Necklace",
+        description: "Embrace nature's beauty with our Ethereal Leaf Design Necklace, featuring delicate leaf motifs that capture the essence of organic elegance.",
+        features: [
+            "Sterling Silver with Gold Accents",
+            "Delicate leaf motif design",
+            "17-inch chain length", 
+            "Nature-inspired artistry",
+            "Lightweight and elegant"
+        ],
+        sizes: [
+            "17-inch standard chain",
+            "Leaf pendant: 2cm"
+        ]
+    },
+    set1: {
+        id: "10",
+        title: "Complete Elegance Set",
+        price: 225,
+        category: "Jewelry Set",
+        description: "Experience complete sophistication with our Elegance Set, featuring perfectly coordinated pieces that create a harmonious and luxurious look.",
+        features: [
+            "Matching necklace and earrings",
+            "18k Gold Plated Sterling Silver",
+            "Coordinated design elements", 
+            "Luxury gift box included",
+            "Versatile for any occasion"
+        ],
+        sizes: [
+            "Necklace: 18-inch chain",
+            "Earrings: French hook backs"
+        ]
+    },
+    earrings3: {
+        id: "11",
+        title: "Statement Silver Hoops",
+        price: 75,
+        category: "Earrings",
+        description: "Make a bold statement with our Silver Hoops, featuring a modern geometric design that adds contemporary flair to any outfit.",
+        features: [
+            "925 Sterling Silver",
+            "Geometric hoop design",
+            "Secure latch back closure", 
+            "Lightweight construction",
+            "Modern and versatile"
+        ],
+        sizes: [
+            "2.5-inch diameter",
+            "Medium statement size"
+        ]
+    },
+    bracelet3: {
+        id: "12",
+        title: "Modernist Gold Cuff",
+        price: 167,
+        category: "Bracelet",
+        description: "Embrace contemporary design with our Modernist Gold Cuff, featuring clean lines and architectural inspiration for a sophisticated look.",
+        features: [
+            "18k Gold Vermeil",
+            "Architectural design",
+            "Adjustable cuff style", 
+            "Statement piece",
+            "Contemporary elegance"
+        ],
+        sizes: [
+            "One size fits most",
+            "Adjustable opening"
+        ]
+    },
+    set2: {
+        id: "13",
+        title: "Timeless Trio Ensemble",
+        price: 250,
+        category: "Jewelry Set",
+        description: "Complete your collection with our Timeless Trio Ensemble, featuring necklace, earrings, and bracelet for a perfectly coordinated look.",
+        features: [
+            "Necklace, Earrings & Bracelet Set",
+            "18k Gold Plated Collection",
+            "Perfectly coordinated pieces", 
+            "Premium gift packaging",
+            "Ideal for gifting"
+        ],
+        sizes: [
+            "Necklace: 16-18 inch adjustable",
+            "Bracelet: 7-inch with 2-inch extender"
+        ]
+    },
+    earrings4: {
+        id: "14",
+        title: "Two-Tone Classic Earrings",
+        price: 89,
+        category: "Earrings",
+        description: "Enjoy the best of both worlds with our Two-Tone Classic Earrings, featuring a beautiful combination of silver and gold tones.",
+        features: [
+            "Silver and Gold Two-Tone",
+            "Classic stud design",
+            "Push back closures", 
+            "Hypoallergenic materials",
+            "Perfect for sensitive ears"
+        ],
+        sizes: [
+            "Standard stud size",
+            "8mm diameter"
+        ]
+    },
+    necklace5: {
+        id: "15",
+        title: "Contemporary Dual-Tone Necklace",
+        price: 198,
+        category: "Necklace",
+        description: "Make a modern statement with our Dual-Tone Necklace, featuring an innovative design that combines silver and gold in perfect harmony.",
+        features: [
+            "Silver and Gold Combination",
+            "Contemporary layered design",
+            "Adjustable length", 
+            "Modern artistic expression",
+            "Unique conversation piece"
+        ],
+        sizes: [
+            "16-18 inch adjustable",
+            "Layered pendant design"
+        ]
+    },
+    necklace6: {
+        id: "16",
+        title: "Luminous Pearl & Gold Necklace",
+        price: 95,
+        category: "Necklace",
+        description: "Radiate elegance with our Pearl & Gold Necklace, featuring genuine pearls accented with golden details for a touch of luxury.",
+        features: [
+            "Genuine Freshwater Pearls",
+            "Gold Accented Settings",
+            "17-inch delicate chain", 
+            "Pearl diameter: 6-7mm",
+            "Elegant and timeless"
+        ],
+        sizes: [
+            "17-inch standard chain",
+            "Pearl: 6-7mm diameter"
+        ]
+    }
+};
+            
+
+            // Get DOM elements
+            const MainImg = document.getElementById("MainImg");
+            const smallImages = document.getElementsByClassName("small-img");
+            const productTitle = document.getElementById("product-title");
+            const productPrice = document.getElementById("product-price");
+            const productDescription = document.getElementById("product-description");
+            const breadcrumb = document.getElementById("breadcrumb");
+            const sizeSelect = document.getElementById("size-select");
+            const productFeatures = document.getElementById("product-features");
+            const quantityInput = document.getElementById("quantity");
+            const addToCartBtn = document.getElementById("add-to-cart-btn");
+
+            // Get current product from URL or default to bracelet1
+            function getCurrentProduct() {
+                const urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get('product') || 'bracelet1';
+            }
+
+            // Function to update product details
+            function updateProductDetails(productId) {
+                const product = products[productId];
+                
+                if (product) {
+                    // Update main image
+                    const smallImg = Array.from(smallImages).find(img => img.dataset.product === productId);
+                    if (smallImg) {
+                        MainImg.src = smallImg.src;
+                        MainImg.alt = product.title;
+                    }
+                    
+                    // Update text content
+                    productTitle.textContent = product.title;
+                    productPrice.textContent = `$${product.price}`;
+                    breadcrumb.textContent = `Home / ${product.category}`;
+                    productDescription.textContent = product.description;
+                    
+                    // Update size options
+                    sizeSelect.innerHTML = '<option>Choose Fit</option>';
+                    product.sizes.forEach(size => {
+                        const option = document.createElement('option');
+                        option.textContent = size;
+                        sizeSelect.appendChild(option);
+                    });
+                    
+                    // Update features list
+                    const featuresList = productFeatures.querySelector('ul');
+                    featuresList.innerHTML = '';
+                    product.features.forEach(feature => {
+                        const li = document.createElement('li');
+                        li.textContent = feature;
+                        featuresList.appendChild(li);
+                    });
+
+                    // Update add to cart button
+                    addToCartBtn.onclick = function() {
+                        const quantity = parseInt(quantityInput.value);
+                        if (window.ShoppingCart) {
+                            window.ShoppingCart.addToCart(
+                                product.id,
+                                product.title,
+                                product.price,
+                                smallImg ? smallImg.src : MainImg.src,
+                                quantity
+                            );
+                        }
+                    };
+                }
+            }
+
+            // Add click events to small images
+            for (let i = 0; i < smallImages.length; i++) {
+                smallImages[i].onclick = function() {
+                    const productId = this.dataset.product;
+                    updateProductDetails(productId);
+                    
+                    // Add active class to clicked image
+                    Array.from(smallImages).forEach(img => img.parentElement.classList.remove('active'));
+                    this.parentElement.classList.add('active');
+                }
+            }
+
+            // Initialize with current product
+            const currentProduct = getCurrentProduct();
+            updateProductDetails(currentProduct);
+
+            // Set active class for current product's image
+            Array.from(smallImages).forEach(img => {
+                if (img.dataset.product === currentProduct) {
+                    img.parentElement.classList.add('active');
+                }
+            });
+        </script>
+
+        <script src="script.js"></script>
+        <script src="cart.js"></script>
+    </body>
+</html>
