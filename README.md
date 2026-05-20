@@ -20,6 +20,7 @@ Responsive jewelry e-commerce website developed using HTML, CSS, and JavaScript 
 - Developed frontend UI components
 - Created visual elements and logos using Canva
 - Focused on clean layout and user-friendly navigation
+
 https://github.com/user-attachments/assets/498ec8a8-e427-4ebc-bdcd-93404334a717
 
 
